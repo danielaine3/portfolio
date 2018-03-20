@@ -1,3 +1,5 @@
+var mixer = mixitup(".container");
+
 $("#allbutton").on ("click", function() {
 	
 })
