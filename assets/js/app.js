@@ -1,3 +1,4 @@
+var mixitup = require('mixitup');
 var mixer = mixitup(".container");
 
 $("#allbutton").on ("click", function() {
