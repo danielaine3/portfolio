@@ -16,7 +16,7 @@ body {
 	height: 200px;
 }
 
-.title {
+#title {
 	color:#FFFFFF;
 	font-size: 70px;
 	text-align: center;
@@ -48,8 +48,15 @@ body {
 }
 
 .mini-title{
+	color:#46484D;
 	font-size: 20px;
 	text-align: center;
+	text-decoration: none;
+}
+
+a {
+	color:#46484D;
+	text-decoration: none;
 }
 
 .mini-title:hover {
@@ -144,7 +151,7 @@ body {
 	height:50px;
 }
 
-.contact {
+#contact {
 	background-color:#FFFFFF;
 	text-align: center;
 	font-size:20px;
