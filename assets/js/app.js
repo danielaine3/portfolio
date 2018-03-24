@@ -7,18 +7,21 @@ var mixer = mixitup(".container", {
 	}
 });
 
-// $("#allbutton").on ("click", function() {
-	
-// })
+$("#all-button").on ("click", function() {
+	mixer.filter('all')
+});
 
-// $("#nodebutton").on ("click", function() {
-	
-// })
+$("#node-button").on ("click", function() {
+	console.log("Node button selected.")
+	mixer.filter('node')
+})
 
-// $("#reactbutton").on ("click", function() {
-	
-// })
+$("#react-button").on ("click", function() {
+	console.log("React button selected.")
+	mixer.filter('react')
+})
 
-// $("#javascriptbutton").on ("click", function() {
-	
-// })
+$("#js-button").on ("click", function() {
+	console.log("Javascript button selected.")
+	mixer.filter('js')
+})
