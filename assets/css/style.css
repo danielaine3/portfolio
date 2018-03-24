@@ -80,7 +80,11 @@ body {
 .about {
 	background-color: #FFFFFF;
 	height:260px;
-	padding-left: 40px;
+}
+
+.about-icon {
+	font-size: 60px;
+	margin: auto;
 }
 
 .portfolio-container {
