@@ -81,20 +81,19 @@ body {
 	width:100%;
 	background-color: #FFFFFF;
 	height:260px;
-	margin-left:250px;
+	margin-left: 90px;
 
 }
 
 .about-icon {
-	float:left;
 	font-size: 70px;
-	margin: auto;
 	text-align: center;
 }
 
 .skill-set {
 	float:left;
-	margin:50px;
+	width:100px;
+	margin:10px 100px 50px 100px;
 }
 
 .skill-text {
