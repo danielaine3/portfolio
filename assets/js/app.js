@@ -1,6 +1,6 @@
 var mixer = mixitup(".container", {
 	selectors: {
-		target: '.filter'
+		target: '.mix'
 	}, 
 	animation: {
 		duration: 300
