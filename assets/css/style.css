@@ -78,13 +78,27 @@ body {
 }
 
 .about {
+	width:100%;
 	background-color: #FFFFFF;
 	height:260px;
+	margin-left:250px;
+
 }
 
 .about-icon {
-	font-size: 60px;
+	float:left;
+	font-size: 70px;
 	margin: auto;
+	text-align: center;
+}
+
+.skill-set {
+	float:left;
+	margin:50px;
+}
+
+.skill-text {
+	text-align: center;
 }
 
 .portfolio-container {
