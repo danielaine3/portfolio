@@ -1,14 +1,14 @@
-var mixer = mixitup(".container", {
-	// selectors: {
-	// 	target: '.mix'
-	// }, 
-	// animation: {
-	// 	duration: 300
-	// }
+var mixer = mixitup("#gallery", {
+	selectors: {
+		target: '.mix'
+	}, 
+	animation: {
+		duration: 300
+	}
 });
 
 $("#all-button").on ("click", function() {
-	mixer.filter('.all');
+	mixer.filter('all');
 });
 
 $("#node-button").on ("click", function() {
