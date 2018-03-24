@@ -1,11 +1,28 @@
-var mixer = mixitup("#gallery", {
+var container = document.querySelector('#gallery');
+var mixer = mixitup(container, {
+	load: {
+		filter:'none'
+	},	
+	animation: {
+		// enable:true,
+		effects:'fade scale stagger',
+		duration:300
+	},
 	selectors: {
 		target: '.mix'
-	}, 
-	animation: {
-		duration: 300
 	}
 });
+
+container.classList.add('mixitup-ready');
+mixer.show()
+	.then(function() {
+		mixer.configure({
+			animation: {
+				effects: 'fade scale',
+				duration:300
+			}
+		});
+	});
 
 $("#all-button").on ("click", function() {
 	mixer.filter('all');
