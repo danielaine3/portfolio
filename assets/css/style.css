@@ -140,8 +140,8 @@ a {
 .gallerypic {
 	display: inline-block;
 	float:left;
-	width:350px;
-	height:200px;
+/*	width:350px;
+	height:200px;*/
 	border: #46484D solid 3px;
 }
 
