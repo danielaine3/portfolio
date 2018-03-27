@@ -3,17 +3,15 @@
 <head>
 	<meta charset= "UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title> 
-		Dani Carter Portfolio
-	</title>
+	<title> Dani Carter Portfolio </title>
 	<!--Link to reset CSS-->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <!--Link to googlefonts-->
 	<link href="https://fonts.googleapis.com/css?family=Pragati+Narrow" rel="stylesheet">
     <!--Link to JQuery file-->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	<script src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <!--Link to MixItUp-->
-<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script>
 	<!--Link to FontAwesome-->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <!--Link to CSS-->
@@ -53,19 +51,22 @@
 				<div class="about-icon"><i class="far fa-compass"></i></div>
 				<div class="skill-title">STRATEGY </div>
 				<br>
-				<div class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+				<div class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				</div>
 			</div>
 			<div class="skill-set">
 				<div class="about-icon"><i class="fas fa-code"></i></div>
 				<div class="skill-title">CODE </div>
 				<br>
-				<div class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+				<div class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
 			</div>
 			<div class="skill-set">
 				<div class="about-icon"><i class="fas fa-cogs"></i></div>
 				<div class="skill-title">FUNCTIONALITY </div>
 				<br>
-				<div class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+				<div class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</div>
 			</div>
 		</div>
 	</div>
@@ -94,50 +95,42 @@
 					</a>
 					<!-- <div class="description">Trivia Game</div> -->
 				</div>
-
 				<div class="mix js" id="three">
 					<a href= "https://danielaine3.github.io/TrainScheduler/"> 
 						<img class="gallerypic" src="images/trainscheduler.jpg" alt="Train Scheduler Screenshot">
 					</a>
 					<!-- <div class="description">Train Scheduler</div> -->
 				</div>
-
-
 				<div class="mix js" id="four"> 
 					<a href= "https://danielaine3.github.io/sortir/">  
 						<img class="gallerypic" src="images/sortir.jpg" alt="Sortir Screenshot">
 					</a>
 					<!-- <div class="description">SORTIR!</div> -->
 				</div>
-
 				<div class="mix node" id="five"> 
 					<a href= "https://github.com/danielaine3/liri-node-app/">  
 						<img class="gallerypic" src="images/liri.jpg" alt="Liri Screenshot">
 					</a>
 					<!-- <div class="description">LIRI: Node App</div> -->
 				</div>
-
 <!-- 				<div class="mix node" id="six"> 
 					<a href= "https://github.com/danielaine3/Node-Hangman/">  
 						<img class="gallerypic" src="assets/images/nodehangman.jpg" alt="Node Hangman Screenshot">
 					</a>
 					<div class="description">Node Hangman</div>
 				</div> -->
-
 <!-- 				<div class="mix node" id="seven"> 
 					<a href= "https://github.com/danielaine3/CLI-App/">  
 						<img class="gallerypic" src="assets/images/nodeinventory.jpg" alt="Node Inventory App Screenshot">
 					</a>
 					<div class="description">School Store Inventory App</div>
 				</div> -->
-
 				<div class="mix node" id="eight"> 
 					<a href= "https://travelbuddyfinder.herokuapp.com/">  
 						<img class="gallerypic" src="images/travelbuddy.jpg" alt="Travel Buddy App Screenshot">
 					</a>
 					<!-- <div class="description">Travel Buddy App</div> -->
 				</div>
-
 				<div class="mix node" id="nine"> 
 					<a href= "https://agile-savannah-84021.herokuapp.com/">  
 						<img class="gallerypic" src="images/coffeecreator.jpg" alt="Coffee Creator App Screenshot">
@@ -152,20 +145,26 @@
 			<div class= "section-title"> 
 				CONTACT
 			</div>			
-			<form>				
-				<input type="text" class=" placeholder" placeholder="NAME">
+			<form method="POST" action= "https://formspree.io/dani.e.carter03@gmail.com">				
+				<input type="text" name="name" placeholder="NAME">
 				<br>
-				<input class ="placeholder" type="text" placeholder= "EMAIL">
+				<input type="email" name="email" placeholder="EMAIL">
 				<br>
-				<input id="message" type="text" placeholder="MESSAGE">
+				<input id="message" type="text" name="message" placeholder="MESSAGE">
 				<br>
-				<button id="submit">SUBMIT</button>
+				<button id="submit" type="submit">SUBMIT</button>
 			</form>
+<!-- 			<div id="success">
+				<div> 
+					Your message was sent successfully. Thanks! <span id="close"></span>
+				</div>
+			</div> -->
+
 			<div>
 				<a href = "https://www.linkedin.com/in/dani-carter/"><i class="fab fa-linkedin icon"></i></a>				
 				<a href = "https://github.com/danielaine3"><i class="fab fa-github-square icon"></i></a>
 				<a href = "https://stackoverflow.com/users/8793194/dani-carter"><i class="fab fa-stack-overflow icon"></i></a>
-					<a href = "dani.e.carter@gmail.com"><i class="fas fa-envelope-square icon"></i></a>
+				<a href = "dani.e.carter@gmail.com"><i class="fas fa-envelope-square icon"></i></a>
 			</div>
 		</div>
 	</div>
@@ -173,10 +172,10 @@
 		&copy;2018
 	</footer>
 	<!--Link to JQuery file-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 	<!--Link to MixItUp-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script> -->
 	<!--Link to Javascript-->
-	<script src="assets/js/app.js"></script>
+	<script src="app.js"></script>
 </body>
 </html>
