@@ -1,4 +1,4 @@
-var mixitup = require('mixitup');
+// var mixitup = require('mixitup');
 var container = document.querySelector('#gallery');
 var config = {
 	"animation": {
