@@ -32,7 +32,7 @@ body {
 .sidebar {
 	position:fixed;
 	background-color: #F9E7E3;
-	height:600px;
+	height:640px;
 	width:250px;
 	margin-top: 30px;
 	margin-left: 20px;
@@ -84,6 +84,7 @@ a {
 }
 
 .about {
+	text-align: center;
 	width:100%;
 	background-color: #FFFFFF;
 	min-height:260px;
@@ -94,10 +95,11 @@ a {
 
 .about-icon {
 	font-size: 60px;
-	text-align: center;
+	
 }
 
 .skill-set {
+	display: inline-block;
 	float:left;
 	width:100px;
 	margin:0px 100px 50px 100px;
@@ -105,11 +107,11 @@ a {
 
 .skill-title {
 	font-size: 25px;
-	text-align: center;
+	
 }
 
 .skill-text {
-	text-align: center;
+	
 }
 
 .portfolio-container {
@@ -124,6 +126,7 @@ a {
 }
 
 #gallery{
+	padding-bottom: 20px;
 	margin-left: 80px;
 	min-height: 300px;
 	max-height: 500px;
@@ -151,26 +154,42 @@ input {
 button {
 	font-family: 'Pragati Narrow', sans-serif;
 	font-size:20px;
-	background-color:#F9E7E3;
+	background-color:#DFE1E0;
 	color:#46484D;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 5px 5px 15px 5px;
-	border: #46484D solid 1px;
+	border: none;
 }
 
 button:hover {
 	background-color: #46484D;
 	color:#FFFFFF;
+	
 }
 
-button:active {
-	background-color: #46484D;
-	color:#FFFFFF;
+.active {
+	background-color: #F9E7E3;
 }
 
 #contact {
 	text-align: center;
+}
+
+#submit {
+	font-family: 'Pragati Narrow', sans-serif;
+	font-size:20px;
+	background-color:#F9E7E3;
+	color:#46484D;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 5px 5px 15px 5px;
+	border: none;
+}
+
+#submit:hover {
+	background-color: #46484D;
+	color:#FFFFFF;
 }
 
 footer {

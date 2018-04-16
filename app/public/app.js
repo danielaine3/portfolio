@@ -11,19 +11,11 @@ var config = {
 
 var mixer = mixitup(container, config);
 
-// console.log(mixer);
+function activeBtn() {
+	$(".filter").click(function() {
+		$(".filter").removeClass("active");
+		$(this).addClass("active");
+	});
+};
 
-// container.classList.add('mixitup-ready');
-// mixer.show()
-	// .then(function() {
-	// 	mixer.configure({
-	// 		animation: {
-	// 			effects: 'fade scale',
-	// 			duration:300
-	// 		}
-	// 	});
-	// });
-
-// $(function() {
-// 	$('#gallery').mixitup(container, config);
-// });
+activeBtn();

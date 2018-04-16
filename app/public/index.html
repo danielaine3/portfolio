@@ -16,6 +16,8 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <!--Link to CSS-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--favicon-->
+    <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
 	<div class="header">
@@ -26,9 +28,9 @@
 			<br>
 			<p class="mini-title"><a href="index.html#title">HOME</a></p>
 			<br>
-			<p class="mini-title"><a href="index.html#about">ABOUT</a></p>
+			<p class="mini-title"><a href="index.html.about">ABOUT</a></p>
 			<br>
-			<p class="mini-title"><a href="index.html#portfolio">PORTFOLIO</a></p>
+			<p class="mini-title"><a href="index.html#gallery">PORTFOLIO</a></p>
 			<br>
 			<p class="mini-title"><a href="index.html#contact">CONTACT</a></p>
 		</div>
@@ -49,23 +51,26 @@
 		<div class="about">
 			<div class="skill-set">
 				<div class="about-icon"><i class="far fa-compass"></i></div>
-				<div class="skill-title">STRATEGY </div>
+				<div class="skill-title">STRATEGY</div>
 				<br>
-				<div class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				<div class="skill-text">
+					Defining a strategy based on end goals at the start makes for a cohesive application
 				</div>
 			</div>
 			<div class="skill-set">
 				<div class="about-icon"><i class="fas fa-code"></i></div>
-				<div class="skill-title">CODE </div>
+				<div class="skill-title">CODE</div>
 				<br>
-				<div class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				<div class="skill-text">
+					Creating applications utilizing the newest technologies while maintaining clean coding standards
 				</div>
 			</div>
 			<div class="skill-set">
 				<div class="about-icon"><i class="fas fa-cogs"></i></div>
-				<div class="skill-title">FUNCTIONALITY </div>
+				<div class="skill-title">FUNCTION</div>
 				<br>
-				<div class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				<div class="skill-text">
+					Clean, understandable and intuitive applications are my top priority
 				</div>
 			</div>
 		</div>
@@ -75,7 +80,7 @@
 			PORTFOLIO
 		</div>
 		<div class="button-container">
-			<button type="button" class="filter" id="all-button" data-filter="all">ALL</button>
+			<button type="button" class="filter active" id="all-button" data-filter="all">ALL</button>
 			<button type="button" class="filter" id="node-button" data-filter=".node">NODE.JS</button>
 			<button type="button" class="filter" id="react-button" data-filter=".react">REACT</button>
 			<button type="button" class="filter" id="js-button" data-filter=".js">JAVASCRIPT</button>
@@ -130,7 +135,7 @@
 				<!-- <div class="description">Travel Buddy App</div> -->
 			</div>
 			<div class="mix node" id="nine"> 
-				<a href= "https://coffeecreator.herokuapp.com/">  
+				<a href= "https://coffee-creator.herokuapp.com/">  
 					<img class="gallerypic" src="images/coffeecreator.jpg" alt="Coffee Creator App Screenshot">
 				</a>
 				<!-- <div class="description">Coffee Creator App</div> -->
@@ -173,7 +178,7 @@
 			<div>
 				<a href = "https://www.linkedin.com/in/dani-carter/"><i class="fab fa-linkedin icon"></i></a>				
 				<a href = "https://github.com/danielaine3"><i class="fab fa-github-square icon"></i></a>
-				<a href = "https://stackoverflow.com/users/8793194/dani-carter"><i class="fab fa-stack-overflow icon"></i></a>
+				<!-- <a href = "https://stackoverflow.com/users/8793194/dani-carter"><i class="fab fa-stack-overflow icon"></i></a> -->
 				<a href = "dani.e.carter@gmail.com"><i class="fas fa-envelope-square icon"></i></a>
 			</div> <!--Social media icons end-->
 		</div><!--contact end-->
@@ -181,10 +186,6 @@
 	<footer> 
 		&copy;2018
 	</footer>
-	<!--Link to JQuery file-->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-	<!--Link to MixItUp-->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script> -->
 	<!--Link to Javascript-->
 	<script src="app.js"></script>
 </body>
