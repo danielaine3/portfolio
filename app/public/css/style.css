@@ -89,12 +89,10 @@ a {
 	min-height:260px;
 	margin-left: 90px;
 	overflow: scroll;
-
 }
 
 .about-icon {
 	font-size: 60px;
-	
 }
 
 .skill-set {
@@ -106,11 +104,6 @@ a {
 
 .skill-title {
 	font-size: 25px;
-	
-}
-
-.skill-text {
-	
 }
 
 .portfolio-container {
@@ -200,4 +193,92 @@ footer {
 	text-align: center;
 	height:70px;
 	padding-top:30px;
+}
+
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+	.container {
+		padding-left:220px ;
+	}
+
+	#about-title, #contact-title {
+		padding-left: 130px;
+	}
+
+	.skill-set {
+		margin: 0px 50px 25px 50px;
+	}
+	
+	.section-title {
+		
+	}
+
+	#gallery {
+		margin-left: 185px;
+	}
+
+	#contact {
+		margin-left: 100px;
+	}
+
+}
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+	.container {
+		padding-left: 205px;
+	}
+
+	.about-icon {
+		font-size: 40px;
+	}
+
+	.skill-set {
+		margin:0px 20px 12px 20px;
+	}
+
+	#gallery {
+		margin-left: 90px;
+	}
+}
+
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+	.sidebar {
+		width: 200px;
+	}
+
+	.selfie {
+		margin-left: 35px;
+	}
+
+	.container {
+		padding-left: 170px;
+	}
+	
+	button {
+		padding-left: 8px;
+		padding-right:8px;
+	}
+
+	#about-title {
+		padding-left:170px;
+	}
+
+	.about-icon {
+		font-size: 30px;
+	}
+
+	.skill-set {
+		margin:0px 10px 6px 10px;
+	}
+
+	#gallery {
+		margin-left: 10px;
+	}
+
+	input {
+		width: 300px;
+	}
+
 }
