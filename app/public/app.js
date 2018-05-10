@@ -19,3 +19,7 @@ function activeBtn() {
 };
 
 activeBtn();
+
+$(window).scroll(function(){
+    $(".sidebar").css("top", Math.max(25, 750 - $(this).scrollTop()));
+});
