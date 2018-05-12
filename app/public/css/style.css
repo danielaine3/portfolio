@@ -53,7 +53,6 @@ body {
 
 .sidebar {
 	position: fixed;
-	top:25px;
 	background-color: #DFE1E0;
 	height:650px;
 	width:250px;
