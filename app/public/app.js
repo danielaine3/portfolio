@@ -6,7 +6,7 @@ var config = {
         "nudge": true,
         "reverseOut": false,
         "effects": "fade scale(0.01) stagger(70ms)"
-	}
+    }    
 };
 
 var mixer = mixitup(container, config);
@@ -18,8 +18,8 @@ function activeBtn() {
 	});
 };
 
+activeBtn();
+
 $(window).scroll(function(){
     $(".sidebar").css("top", Math.max(25, 750 - $(this).scrollTop()));
 });
-
-activeBtn();
