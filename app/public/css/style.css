@@ -199,7 +199,7 @@ button:hover {
 	font-family: 'Pragati Narrow', sans-serif;
 	font-size:20px;
 	background-color:#EA5A79;
-	color:#DFE1E0;
+	color:#464646;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 5px 5px 15px 5px;
@@ -207,8 +207,8 @@ button:hover {
 }
 
 #submit:hover {
-	background-color: #464646;
-	color:#FFFFFF;
+	background-color: #DFE1E0;
+	color:#464646;
 }
 
 footer {
