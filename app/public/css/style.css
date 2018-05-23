@@ -156,8 +156,14 @@ a {
 	border: 1px solid #464646;
 }
 
-.gallerypic:hover {
-
+.hover {
+	position:absolute;
+	
+	background-color:#FFFFFF; 
+	color:#EA5A79;
+	width:33%;
+	/*height:100%;
+*/
 }
 
 #message {
