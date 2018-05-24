@@ -25,9 +25,8 @@ body {
 #landing-btn {
 	position:relative;
 	top:80%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	left:50%;
+  
 }
 
 .header {
@@ -163,6 +162,22 @@ input {
 	line-height: 2;
 	padding:2px;
 	margin: 5px;
+}
+
+.button {
+	font-family: 'Pragati Narrow', sans-serif;
+	font-size:20px;
+	background-color:#DFE1E0;
+	color:#464646;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 5px 5px 15px 5px;
+	border: none;
+}
+
+.button:hover {
+	background-color: #464646;
+	color:#FFFFFF;	
 }
 
 button {
