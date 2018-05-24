@@ -118,7 +118,6 @@ a {
 }
 
 .skill-set {
-	display: inline-block;
 	float:left;
 	width:100px;
 	margin:0px 100px 50px 100px;
@@ -148,22 +147,11 @@ a {
 }
 
 .gallerypic {
-	display: inline-block;
 	float:left;
 	width:350px;
 	height:200px;
 	margin:5px;
 	border: 1px solid #464646;
-}
-
-.hover {
-	position:absolute;
-	
-	background-color:#FFFFFF; 
-	color:#EA5A79;
-	width:33%;
-	/*height:100%;
-*/
 }
 
 #message {
@@ -240,10 +228,6 @@ footer {
 
 	.skill-set {
 		margin: 0px 50px 25px 50px;
-	}
-	
-	.section-title {
-		
 	}
 
 	#gallery {
