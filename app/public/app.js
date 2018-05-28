@@ -1,63 +1,63 @@
 // var mixitup = require('mixitup');
-var container = document.querySelector('#gallery');
-var config = {
-	"animation": {
-        "duration": 607,
-        "nudge": true,
-        "reverseOut": false,
-        "effects": "fade scale(0.01) stagger(70ms)"
-    }    
+const container = document.querySelector('#gallery');
+const config = {
+  animation: {
+    duration: 607,
+    nudge: true,
+    reverseOut: false,
+    effects: 'fade scale(0.01) stagger(70ms)',
+  },
 };
 
-var mixer = mixitup(container, config);
+const mixer = mixitup(container, config);
 
 function activeBtn() {
-	$(".filter").click(function() {
-		$(".filter").removeClass("active");
-		$(this).addClass("active");
-	});
-};
+  $('.filter').click(function() {
+    $('.filter').removeClass('active');
+    $(this).addClass('active');
+  });
+}
 
 activeBtn();
 
-$(window).scroll(function(){
-    $(".sidebar").css("top", Math.max(25, 750 - $(this).scrollTop()));
+$(window).scroll(function() {
+  $('.sidebar').css('top', Math.max(25, 750 - $(this).scrollTop()));
 });
 
 // var modalText = {
 //     intlintern: {
 //         title: 'International Intern',
-//         description: 
+//         description:
 //         tag:
 //         link:
 //     },
 //     intlintern: {
 //         title: 'International Intern',
-//         description: 
+//         description:
 //         tag:
 //         link:
 //     },
 //     intlintern: {
 //         title: 'International Intern',
-//         description: 
+//         description:
 //         tag:
 //         link:
 //     },
 //     intlintern: {
 //         title: 'International Intern',
-//         description: 
+//         description:
 //         tag:
 //         link:
 //     },
 //     intlintern: {
 //         title: 'International Intern',
-//         description: 
+//         description:
 //         tag:
 //         link:
 //     },
 //     intlintern: {
 //         title: 'International Intern',
-//         description: 
+//         description:
 //         tag:
 //         link:
 //     },
