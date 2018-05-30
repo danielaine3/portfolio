@@ -90,7 +90,8 @@ a {
 
 .container {
 	background-color: #464646;
-	width: 100%;
+	width:100%;
+	margin:auto;
 	padding-left: 300px;
 	padding-right: 70px;
 }
