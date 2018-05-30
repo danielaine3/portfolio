@@ -26,6 +26,7 @@ body {
 	position:relative;
 	top:80%;
 	left:50%;
+	height:30px;
 }
 
 .header {
@@ -89,7 +90,7 @@ a {
 
 .container {
 	background-color: #464646;
-	width: auto;
+	width: 100%;
 	padding-left: 300px;
 	padding-right: 70px;
 }
