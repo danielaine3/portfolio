@@ -100,16 +100,23 @@ a {
 	color:#FFFFFF;
 	font-size: 35px;
 	text-align: center;
-	padding: 20px;
+}
+
+#about-title {
+	background-color: #464646;
+	width:100%;
+	margin:auto;
+	padding-left: 300px;
+	padding-right: 70px;
 }
 
 .about {
 	color:#FFFFFF;
 	text-align: center;
 	width:100%;
+	margin:auto;
 	background-color: #464646;
 	min-height:260px;
-	margin-left: 90px;
 	overflow: scroll;
 }
 
@@ -130,8 +137,20 @@ a {
 .portfolio-container {
 	background-color: #FFFFFF;
 	height:auto;
-	width: auto;
+	width: 100%;
+	margin:auto;
 	padding-left: 250px;
+}
+
+#portfolio-title {
+	color:#464646;
+	font-size: 35px;
+	text-align: center;
+	background-color: #FFFFFF;
+	width:100%;
+	margin:auto;
+	padding-left: 300px;
+	padding-right: 70px;
 }
 
 .button-container {
@@ -205,6 +224,14 @@ button:hover {
 	text-align:center;
 	padding:0px 5px;
 	margin:5px 0px;
+}
+
+#contact-title {
+	background-color: #464646;
+	width:100%;
+	margin:auto;
+	padding-left: 300px;
+	padding-right: 70px;
 }
 
 #contact {
