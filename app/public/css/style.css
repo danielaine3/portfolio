@@ -25,7 +25,7 @@ body {
 #landing-btn {
 	position:relative;
 	top:80%;
-	left:50%;
+	left:45%;
 	height:30px;
 }
 
@@ -82,24 +82,17 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: #464646;
+	text-decoration: none;
+	font-weight:bold;
+}
+
 .icon {
 	color:#FFFFFF;
 	font-size:50px;
 	margin: 20px 5px 5px 5px;
 }
-
-.container {
-	background-color: #464646;
-	width:100%;
-	margin:auto;
-	padding-left: 300px;
-	padding-right: 70px;
-}
-
-/* .section-title {
-	color:#FFFFFF;
-	font-size: 35px;
-} */
 
 #about-title {
 	color:#FFFFFF;
