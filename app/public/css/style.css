@@ -96,13 +96,15 @@ a {
 	padding-right: 70px;
 }
 
-.section-title {
+/* .section-title {
+	color:#FFFFFF;
+	font-size: 35px;
+} */
+
+#about-title {
 	color:#FFFFFF;
 	font-size: 35px;
 	text-align: center;
-}
-
-#about-title {
 	background-color: #464646;
 	width:100%;
 	margin:auto;
@@ -137,8 +139,7 @@ a {
 .portfolio-container {
 	background-color: #FFFFFF;
 	height:auto;
-	width: 100%;
-	margin:auto;
+	width: auto;
 	padding-left: 250px;
 }
 
@@ -155,10 +156,12 @@ a {
 
 .button-container {
 	text-align: center;
+	padding-left:300px;
 }
 
 #gallery{
 	padding-bottom: 20px;
+	padding-left:220px;
 	margin-left: 80px;
 	min-height: 300px;
 	max-height: 500px;
@@ -227,6 +230,9 @@ button:hover {
 }
 
 #contact-title {
+	color:#FFFFFF;
+	font-size: 35px;
+	text-align: center;
 	background-color: #464646;
 	width:100%;
 	margin:auto;
@@ -236,6 +242,7 @@ button:hover {
 
 #contact {
 	text-align: center;
+	padding-left:220px;
 }
 
 #submit {
@@ -252,6 +259,16 @@ button:hover {
 #submit:hover {
 	background-color: #DFE1E0;
 	color:#464646;
+}
+
+.social {
+	color:#FFFFFF;
+	text-align: center;
+	width:100%;
+	margin:auto;
+	background-color: #464646;
+	overflow: scroll;
+	padding-left:220px;
 }
 
 footer {

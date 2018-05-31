@@ -48,8 +48,10 @@
 		</div>
 	</div>
 
-	<div class= "row section-title" id="about-title"> 
+	<div class= "row" id="about-title"> 
+		<div class="col">
 		ABOUT
+		</div>
 	</div>	
 	<div class="row about">
 		<div class="col"></div>
@@ -78,16 +80,19 @@
 			</div>
 		</div>
 	</div>
-
 		
-	<div class= " row" id="portfolio-title"> 
-		PORTFOLIO
+	<div class= "row" id="portfolio-title"> 
+		<div class="col">
+			PORTFOLIO
+		</div>
 	</div>
 	<div class="row button-container">
-		<button type="button" class="filter active" id="all-button" data-filter="all">ALL</button>
-		<button type="button" class="filter" id="node-button" data-filter=".node">NODE.JS</button>
-		<button type="button" class="filter" id="react-button" data-filter=".react">REACT</button>
-		<button type="button" class="filter" id="js-button" data-filter=".js">JAVASCRIPT</button>
+		<div class="col">
+			<button type="button" class="filter active" id="all-button" data-filter="all">ALL</button>
+			<button type="button" class="filter" id="node-button" data-filter=".node">NODE.JS</button>
+			<button type="button" class="filter" id="react-button" data-filter=".react">REACT</button>
+			<button type="button" class="filter" id="js-button" data-filter=".js">JAVASCRIPT</button>
+		</div>
 	</div>
 	<div row id="gallery">
 		<div class="mix js" id="four"> 
@@ -140,11 +145,13 @@
 		</div>
 	</div><!--gallery container end-->
 	
-	<div class= " row section-title" id= "contact-title"> 
-		CONTACT
+	<div class= "row" id= "contact-title"> 
+		<div class="col">
+			CONTACT
+		</div>
 	</div>			
 	<div class="row about" id="contact">
-		<form method="POST" action= "https://formspree.io/dani.e.carter03@gmail.com">				
+		<form class="col" method="POST" action= "https://formspree.io/dani.e.carter03@gmail.com">				
 			<input type="text" name="name" placeholder="NAME">
 			<br>
 			<input type="email" name="email" placeholder="EMAIL">
@@ -159,12 +166,15 @@
 				Your message was sent successfully. Thanks! <span id="close"></span>
 			</div>
 		</div> -->
+	</div>
 
-		<div>
-			<a href = "https://www.linkedin.com/in/dani-carter/"><i class="fab fa-linkedin icon"></i></a>				
-			<a href = "https://github.com/danielaine3"><i class="fab fa-github-square icon"></i></a>
-			<!-- <a href = "https://stackoverflow.com/users/8793194/dani-carter"><i class="fab fa-stack-overflow icon"></i></a> -->
-			<a href = "dani.e.carter@gmail.com"><i class="fas fa-envelope-square icon"></i></a>
+		<div class="row social">
+			<div class="col">
+				<a href = "https://www.linkedin.com/in/dani-carter/"><i class="fab fa-linkedin icon"></i></a>				
+				<a href = "https://github.com/danielaine3"><i class="fab fa-github-square icon"></i></a>
+				<!-- <a href = "https://stackoverflow.com/users/8793194/dani-carter"><i class="fab fa-stack-overflow icon"></i></a> -->
+				<a href = "dani.e.carter@gmail.com"><i class="fas fa-envelope-square icon"></i></a>
+			</div>
 		</div> <!--Social media icons end-->
 	</div><!--contact end-->
 
