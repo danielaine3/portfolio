@@ -131,13 +131,6 @@ a:hover {
 	font-size: 25px;
 }
 
-.portfolio-container {
-	background-color: #FFFFFF;
-	height:auto;
-	width: auto;
-	padding-left: 250px;
-}
-
 #portfolio-title {
 	color:#464646;
 	font-size: 35px;
@@ -152,6 +145,12 @@ a:hover {
 .button-container {
 	text-align: center;
 	padding-left:300px;
+}
+
+.project-title {
+	font-size: 22px;
+	color: #464646;
+	background-color: #DFE1E0;
 }
 
 #gallery{
