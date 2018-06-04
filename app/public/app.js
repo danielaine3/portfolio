@@ -24,6 +24,11 @@ $(window).scroll(function() {
   $('.sidebar').css('top', Math.max(25, 750 - $(this).scrollTop()));
 });
 
+$('.gallerypic').hover(function() {
+  $('.gallerypic').removeClass('activepic');
+  $(this).addClass('activepic');
+});
+
 // var modalText = {
 //     intlintern: {
 //         title: 'International Intern',

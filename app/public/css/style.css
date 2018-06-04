@@ -169,6 +169,13 @@ a:hover {
 	border: 1px solid #464646;
 }
 
+.activepic {
+	float:left;
+	width:350px;
+	height:200px;
+	border: 1px solid #EA5A79;
+}
+
 #message {
 	height:100px;
 }
