@@ -25,9 +25,9 @@ $(window).scroll(function() {
 });
 
 $('.gallerypic').hover(function() {
-  $('.gallerypic').removeClass('activepic');
-  $(this).addClass('activepic');
+  $('.activepic').css('z-index', 2);
 });
+
 
 // var modalText = {
 //     intlintern: {

@@ -163,16 +163,22 @@ a:hover {
 }
 
 .gallerypic {
+	position:relative;
 	float:left;
 	width:350px;
 	height:200px;
 	border: 1px solid #464646;
+	z-index:1
 }
 
 .activepic {
+	position:relative;
+	right:350px;
+	z-index:0;
 	float:left;
 	width:350px;
 	height:200px;
+	background-color:#FFFFFF;
 	border: 1px solid #EA5A79;
 }
 
