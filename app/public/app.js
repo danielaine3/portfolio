@@ -25,7 +25,8 @@ $(window).scroll(function() {
 });
 
 $('.gallerypic').hover(function() {
-  $('.activepic').css('z-index', 2);
+  $('.gallerypic').css('z-index', 2);
+  $(this).css('z-index', 0);
 });
 
 
