@@ -172,10 +172,8 @@ a:hover {
 }
 
 .activepic {
-	position:relative;
-	right:350px;
+	position:absolute;
 	z-index:1;
-	float:left;
 	width:350px;
 	height:200px;
 	background-color:#FFFFFF;
