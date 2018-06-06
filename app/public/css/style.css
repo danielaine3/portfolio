@@ -148,7 +148,7 @@ a:hover {
 }
 
 .project-title {
-	font-size: 22px;
+	font-size: 24px;
 	color: #464646;
 	background-color: #DFE1E0;
 }
@@ -173,13 +173,16 @@ a:hover {
 
 .activepic {
 	position:absolute;
-	z-index:1;
 	width:350px;
 	height:200px;
 	background-color:#FFFFFF;
 	border: 1px solid #EA5A79;
 }
 
+.highlight {
+	color:#EA5A79;
+	font-size:19px;
+}
 #message {
 	height:100px;
 }
