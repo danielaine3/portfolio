@@ -21,7 +21,7 @@
     "eslint": "^4.19.1",
     "express": "^4.16.3",
     "mixitup": "^3.2.2",
-    "npm": "^5.8.0",
+    "npm": "^6.9.0",
     "path": "^0.12.7"
   },
   "devDependencies": {
